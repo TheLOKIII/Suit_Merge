@@ -1,0 +1,27 @@
+{
+  "id": 8,
+  "phase": 1,
+  "type": "Onboarding",
+  "difficulty": 2,
+  "goals": [
+    { "type": "SUIT_TRIGGER", "suit": "S", "count": 2 }
+  ],
+  "enabledSuitEffects": ["D", "C", "S"],
+  "unlockedBoosters": ["UNDO"],
+  "board": [
+    ["2H",  "5D",  "3C",  "7H",  "4S"],
+    ["6C",  "3H",  "4D",  "2C",  "."],
+    [".",   "6S",  ".",   "6S",  "."],
+    [".",   "5H",  "2D",  "3S",  "7D"],
+    ["4C",  ".",   ".",   "5S",  "2H"]
+  ],
+  "deck": {
+    "size": 20,
+    "script": [
+      { "card": "6S", "hint": [2, 2] }
+    ],
+    "random": { "rankRange": ["2", "7"], "rankWeights": null, "suitWeights": { "S": 0.45 }, "pairRatio": 0, "seed": 8001 }
+  },
+  "tutorial": [],
+  "reward": { "coins": 20, "chest": false }
+}

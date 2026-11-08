@@ -1,0 +1,27 @@
+{
+  "id": 2,
+  "phase": 1,
+  "type": "Onboarding",
+  "difficulty": 1,
+  "goals": [
+    { "type": "CREATE_RANK", "rank": "5", "count": 1 }
+  ],
+  "enabledSuitEffects": [],
+  "unlockedBoosters": [],
+  "board": [
+    [".",   "2H",  ".",   "."],
+    ["2C",  ".",   "3D",  "."],
+    [".",   "3S",  ".",   "."],
+    [".",   ".",   "4H",  "4C"]
+  ],
+  "deck": {
+    "size": 14,
+    "script": [
+      { "card": "2D", "hint": [1, 1] },
+      "3C", "2S", "3H", "2H", "3D", "2C", "3S", "4D", "2D", "3C", "4S", "2H"
+    ],
+    "random": { "rankRange": ["2", "4"], "rankWeights": null, "suitWeights": null, "pairRatio": 0, "seed": 2001 }
+  },
+  "tutorial": [],
+  "reward": { "coins": 20, "chest": false }
+}

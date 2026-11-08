@@ -1,0 +1,24 @@
+{
+  "id": 4,
+  "phase": 1,
+  "type": "Relief",
+  "difficulty": 1,
+  "goals": [
+    { "type": "CREATE_RANK", "rank": "6", "count": 2 }
+  ],
+  "enabledSuitEffects": ["D"],
+  "unlockedBoosters": ["UNDO"],
+  "board": [
+    [".",   ".",   ".",   ".",   "."],
+    [".",   ".",   ".",   ".",   "."],
+    [".",   ".",   ".",   ".",   "."],
+    [".",   ".",   ".",   ".",   "."],
+    [".",   ".",   ".",   ".",   "."]
+  ],
+  "deck": {
+    "size": 24,
+    "random": { "rankRange": ["2", "5"], "rankWeights": { "2": 0.3, "3": 0.3, "4": 0.25, "5": 0.15 }, "suitWeights": { "D": 0.4 }, "pairRatio": 0, "seed": 4001 }
+  },
+  "tutorial": [],
+  "reward": { "coins": 20, "chest": false }
+}

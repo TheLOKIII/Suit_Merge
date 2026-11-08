@@ -1,0 +1,25 @@
+{
+  "id": 9,
+  "phase": 1,
+  "type": "Buildup",
+  "difficulty": 3,
+  "goals": [
+    { "type": "CREATE_RANK", "rank": "9", "count": 1 },
+    { "type": "SCORE", "score": 2800 }
+  ],
+  "enabledSuitEffects": ["D", "C", "S"],
+  "unlockedBoosters": ["UNDO"],
+  "board": [
+    [".",   ".",   "8H",  ".",   "."],
+    [".",   "6C",  "6C",  ".",   "5D"],
+    [".",   "7S",  ".",   "7S",  "."],
+    ["5H",  ".",   "8D",  ".",   "."],
+    [".",   ".",   ".",   "4C",  "."]
+  ],
+  "deck": {
+    "size": 28,
+    "random": { "rankRange": ["5", "8"], "rankWeights": null, "suitWeights": { "C": 0.3, "S": 0.3 }, "pairRatio": 0, "seed": 9001 }
+  },
+  "tutorial": [],
+  "reward": { "coins": 20, "chest": false }
+}

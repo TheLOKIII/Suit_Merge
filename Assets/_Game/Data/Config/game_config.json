@@ -1,0 +1,21 @@
+{
+    "scoreBase": 10,
+    "diamondMultiplier": 3,
+    "chainBonusPerStep": 0.5,
+    "aceBonus": 100000,
+    "heartOverflowPerRank": 500,
+    "spadeClearPerRankValue": 10,
+    "stoneBreakPerHp": 50,
+    "clubSpawnJoinsChain": true,
+    "createRankCountsHigher": true,
+    "createRankCountsClubSpawn": true,
+    "createRankCountsEveryChainStep": false,
+    "bombDangerThreshold": 3,
+    "tutorialHintLocksDrop": true,
+    "pairResolveOrder": "FIRST_THEN_SECOND",
+    "endlessPairRatio": 0.3,
+    "endlessStartHighest": 4,
+    "endlessLowOffset": 4,
+    "endlessHighOffset": 1,
+    "endlessMinHigh": 4
+}

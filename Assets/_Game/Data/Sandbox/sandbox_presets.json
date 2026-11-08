@@ -1,0 +1,262 @@
+{
+  "_huongDan": "Mỗi preset: name (tên), expect (kết quả mong đợi, hiện trên thanh công cụ), suits (chất đã mở: D Rô, C Chuồn, S Bích, H Cơ; để trống = chưa mở), hand (lá trên tay, vd 4D, 10H, QS), board (từng hàng; '.' ô trống, '#' ô khoá, '2H' lá). check / checkScore / checkLost chỉ dùng để Claude tự kiểm tra preset — không bắt buộc.",
+  "presets": [
+    {
+      "name": "Merge thường",
+      "expect": "Thả 2 Bích vào ô (0,2) → 3 Bích, +90",
+      "suits": "",
+      "hand": "2S",
+      "board": [
+        "2H 2C .  .  .",
+        ".  .  .  .  .",
+        ".  .  3D .  .",
+        ".  .  .  .  .",
+        ".  .  .  .  ."
+      ],
+      "check": [
+        "2S@0,2"
+      ],
+      "checkScore": 90
+    },
+    {
+      "name": "Chain ×2 (Combo)",
+      "expect": "Thả 2 Rô vào ô (1,1) → 3 Rô rồi Combo ×2 → 4 Rô, +270",
+      "suits": "",
+      "hand": "2D",
+      "board": [
+        ".  2H .  .  .",
+        "2C .  3D .  .",
+        ".  3S .  .  .",
+        ".  .  4H 4C  .",
+        ".  .  .  .  ."
+      ],
+      "check": [
+        "2D@1,1"
+      ],
+      "checkScore": 270
+    },
+    {
+      "name": "Chain ×4 dài",
+      "expect": "Thả 2 Cơ vào ô giữa → 3 → 4 → 5 → 6 Cơ (Combo ×2, ×3, ×4), +1020",
+      "suits": "",
+      "hand": "2H",
+      "board": [
+        ".  .  3C .  .",
+        ".  .  3S .  .",
+        "2C 2D .  5S 5D",
+        ".  .  4C .  .",
+        ".  .  4D .  ."
+      ],
+      "check": [
+        "2H@2,2"
+      ],
+      "checkScore": 1020
+    },
+    {
+      "name": "Rô ×3 điểm",
+      "expect": "Thả 4 Rô vào ô giữa → 5 Rô, điểm ×3 = +450",
+      "suits": "D",
+      "hand": "4D",
+      "board": [
+        "3C 3S .  .  .",
+        ".  .  .  .  .",
+        ".  4D .  4D .",
+        ".  .  .  .  .",
+        ".  .  .  2H 2D"
+      ],
+      "check": [
+        "4D@2,2"
+      ],
+      "checkScore": 450
+    },
+    {
+      "name": "Rô ở bước Combo 2",
+      "expect": "Thả 2 Rô vào ô (0,2): bước 1 lẫn chất +90, bước 2 ba lá 3 Rô ×3 ×1.5 = +540. Tổng +630",
+      "suits": "DCSH",
+      "hand": "2D",
+      "board": [
+        "2H 2C .  .  .",
+        ".  3D 3D .  .",
+        ".  .  .  .  .",
+        ".  .  .  .  .",
+        ".  .  .  .  ."
+      ],
+      "check": [
+        "2D@0,2"
+      ],
+      "checkScore": 630
+    },
+    {
+      "name": "Cơ nhảy rank (3 lá)",
+      "expect": "Thả 5 Cơ vào ô giữa → nhảy 6 → 7 → 8 Cơ (+3), +240",
+      "suits": "DCSH",
+      "hand": "5H",
+      "board": [
+        ".  .  .  .  .",
+        ".  .  .  .  .",
+        ".  5H .  5H .",
+        ".  .  .  .  .",
+        ".  .  .  .  ."
+      ],
+      "check": [
+        "5H@2,2"
+      ],
+      "checkScore": 240
+    },
+    {
+      "name": "Cơ nhảy rank (4 lá)",
+      "expect": "Thả 5 Cơ vào ô giữa → nhảy lên 9 Cơ (+4), +360",
+      "suits": "DCSH",
+      "hand": "5H",
+      "board": [
+        ".  .  .  .  .",
+        ".  .  5H .  .",
+        ".  5H .  5H .",
+        ".  .  .  .  .",
+        ".  .  .  .  ."
+      ],
+      "check": [
+        "5H@2,2"
+      ],
+      "checkScore": 360
+    },
+    {
+      "name": "Cơ vượt K (+500)",
+      "expect": "Thả J Cơ vào ô giữa → K Cơ (+2), vượt 1 rank → +500. Tổng +890",
+      "suits": "DCSH",
+      "hand": "JH",
+      "board": [
+        ".  .  .  .  .",
+        ".  .  .  .  .",
+        ".  JH .  JH .",
+        ".  .  .  .  .",
+        ".  .  .  .  ."
+      ],
+      "check": [
+        "JH@2,2"
+      ],
+      "checkScore": 890
+    },
+    {
+      "name": "Chuồn sinh lá",
+      "expect": "Thả 5 Chuồn vào ô (1,3) → 6 Chuồn + sinh thêm 6 Chuồn ở ô (0,3), +180",
+      "suits": "DC",
+      "hand": "5C",
+      "board": [
+        ".  .  .  .  .",
+        ".  5C 5C .  .",
+        ".  .  .  .  .",
+        ".  .  .  .  .",
+        ".  .  .  .  ."
+      ],
+      "check": [
+        "5C@1,3"
+      ],
+      "checkScore": 180
+    },
+    {
+      "name": "Chuồn + Combo (L9 Route B)",
+      "expect": "Thả 6 Chuồn vào ô giữa → 7 Chuồn + sinh 7 Chuồn ở (1,2) → Combo 4 lá → 8 Chuồn, +690. Đổi lá thành 8, thả vào (1,2) → 9, +360",
+      "suits": "DCS",
+      "hand": "6C",
+      "board": [
+        ".  .  8H .  .",
+        ".  6C 6C .  5D",
+        ".  7S .  7S .",
+        "5H .  8D .  .",
+        ".  .  .  4C ."
+      ],
+      "check": [
+        "6C@2,2",
+        "8S@1,2"
+      ],
+      "checkScore": 1050
+    },
+    {
+      "name": "Bích dọn 3×3 (L8)",
+      "expect": "Thả 6 Bích vào ô giữa → 7 Bích +210, dọn 6 lá xung quanh +190. Tổng +400",
+      "suits": "DCS",
+      "hand": "6S",
+      "board": [
+        "2H 5D 3C 7H 4S",
+        "6C 3H 4D 2C .",
+        ".  6S .  6S .",
+        ".  5H 2D 3S 7D",
+        "4C .  .  5S 2H"
+      ],
+      "check": [
+        "6S@2,2"
+      ],
+      "checkScore": 400
+    },
+    {
+      "name": "Bích ở bước Combo 2",
+      "expect": "Thả 2 Bích vào ô (0,2): bước 1 → 3 Bích +90, bước 2 → 4 Bích +180 rồi dọn 7 Rô, 9 Cơ +160 (không nhân Combo). Tổng +430",
+      "suits": "DCSH",
+      "hand": "2S",
+      "board": [
+        "2H 2C .  7D .",
+        ".  3S 3S 9H .",
+        ".  .  .  .  .",
+        ".  .  .  .  .",
+        ".  .  .  .  ."
+      ],
+      "check": [
+        "2S@0,2"
+      ],
+      "checkScore": 430
+    },
+    {
+      "name": "Ace (3 lá K)",
+      "expect": "Thả K Bích vào ô giữa → Ace: lá biến mất, +100,000, không hiệu ứng chất",
+      "suits": "DCSH",
+      "hand": "KS",
+      "board": [
+        ".  .  .  .  .",
+        ".  .  .  .  .",
+        ".  KD .  KH .",
+        ".  .  .  .  .",
+        ".  .  .  .  ."
+      ],
+      "check": [
+        "KS@2,2"
+      ],
+      "checkScore": 100000
+    },
+    {
+      "name": "Rô chưa mở",
+      "expect": "Như 'Rô ×3 điểm' nhưng chưa mở Rô → 5 Rô, chỉ +150, không hiệu ứng",
+      "suits": "",
+      "hand": "4D",
+      "board": [
+        "3C 3S .  .  .",
+        ".  .  .  .  .",
+        ".  4D .  4D .",
+        ".  .  .  .  .",
+        ".  .  .  2H 2D"
+      ],
+      "check": [
+        "4D@2,2"
+      ],
+      "checkScore": 150
+    },
+    {
+      "name": "Bàn gần đầy (thử thua)",
+      "expect": "Thả 9 Bích vào ô trống cuối (4,4) → bàn đầy → THUA. Bấm Undo để quay lại",
+      "suits": "DCSH",
+      "hand": "9S",
+      "board": [
+        "2H 4D 6C 3S 5H",
+        "3D 5C 2S 4H 6D",
+        "4C 6S 3H 5D 2C",
+        "5S 2H 4D 6C 3S",
+        "6H 3D 5C 2S ."
+      ],
+      "check": [
+        "9S@4,4"
+      ],
+      "checkScore": 0,
+      "checkLost": true
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+# ===== Unity tự tạo lại — không đưa lên =====
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# File dự án do IDE / Unity sinh ra
+.vs/
+.idea/
+.gradle/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+ExportedObj/
+.consulo/
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+*.app
+crashlytics-build.properties
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Hệ điều hành
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ===== Riêng dự án Suit Merge =====
+# Docs chỉ lưu trên máy, KHÔNG đưa lên GitHub
+/Assets/_Game/Docs/
+/Assets/_Game/Docs.meta
+
+# Scene sao lưu tự động của Unity
+/Assets/_Recovery/
+/Assets/_Recovery.meta
+
+# Cài đặt riêng của máy (Claude Code)
+/.claude/settings.local.json
+
+# Python cache của Tools/
+__pycache__/
+*.pyc

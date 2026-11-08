@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0db224a2e33717449a7de549dc052501, type: 3}
+  m_Name: FxTheme
+  m_EditorClassIdentifier: SuitMerge.View::SuitMerge.View.Animation.FxTheme
+  ring: {fileID: 21300000, guid: 2c9159223ab6b5a43ae42e8ec97eb976, type: 3}
+  glow: {fileID: 21300000, guid: 4c0660a625f17584c8309f779e1adfb4, type: 3}
+  spark: {fileID: 21300000, guid: 9b80ed654bcc23e49ad9d0536b9ecd1d, type: 3}
+  flash: {fileID: 21300000, guid: 47acfe37b2d62444eb1ebee3c263bb9d, type: 3}
+  rays: {fileID: 21300000, guid: 148f03fd94af51c4095a9f6f9197702e, type: 3}
+  edgeGlow: {fileID: 21300000, guid: 2c25b83c8c62687478cbcefd77a8adae, type: 3}
+  overlayValid: {fileID: 21300000, guid: cc95c491941777845b6489a88bd508c1, type: 3}
+  overlayMerge: {fileID: 21300000, guid: eeee13432c45ecb40bd9ff17a798b0b4, type: 3}
+  overlaySpade: {fileID: 21300000, guid: fdac07c0a1bc0b4418bd7af6ad2b9134, type: 3}
+  overlayClub: {fileID: 21300000, guid: 863744be0663cde42b5ca8ac5e30a614, type: 3}
+  overlayHint: {fileID: 21300000, guid: 13d9ae407851af942bd6b34afd44f4e0, type: 3}
+  overlayInvalid: {fileID: 21300000, guid: 2a26cbca57014aa44ae40ec22c3dc044, type: 3}
+  badgeDiamond: {fileID: 21300000, guid: 279dbce10cf534b43a75558b702a3207, type: 3}
+  badgeHeart: {fileID: 21300000, guid: b8b3a2a4daa2cf941ac772c6a840471f, type: 3}
+  badgeClub: {fileID: 21300000, guid: aa7959e20348ce944b7f065961120143, type: 3}
+  badgeSpade: {fileID: 21300000, guid: 815d884d4ddc2634583ac2e0a29591f4, type: 3}
+  handPairH: {fileID: 21300000, guid: 2d35db4d5703f0048821970cd515120a, type: 3}
+  handPairV: {fileID: 21300000, guid: b60e39655a1a0574b8804b49b2abc093, type: 3}
+  rotateArrow: {fileID: 21300000, guid: 1b968c74cf72e184780fd5378a24b8dd, type: 3}
+  diamondColor: {r: 0.9647059, g: 0.83137256, b: 0.46666667, a: 1}
+  heartColor: {r: 1, g: 0.41960785, b: 0.6039216, a: 1}
+  clubColor: {r: 0.30980393, g: 0.6392157, b: 0.96862745, a: 1}
+  spadeColor: {r: 0.84705883, g: 0.28235295, b: 0.24705882, a: 1}
+  stamp: {fileID: 8300000, guid: 70a4b87621282174598318871cef86ea, type: 3}
+  diamond: {fileID: 8300000, guid: 050e0a409feca5c47a83a7942898a142, type: 3}
+  heartStep: {fileID: 8300000, guid: 1b728d9652adee046ab7238cb2d3b577, type: 3}
+  club: {fileID: 8300000, guid: aae22a5e6e5ab8344a641b5edc0a6565, type: 3}
+  spade: {fileID: 8300000, guid: 74b5673bcf96c9a42970c7a83f15d509, type: 3}
+  volume: 0.8

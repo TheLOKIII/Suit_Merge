@@ -1,0 +1,29 @@
+{
+  "id": 3,
+  "phase": 1,
+  "type": "Onboarding",
+  "difficulty": 1,
+  "goals": [
+    { "type": "SCORE", "score": 1200 }
+  ],
+  "enabledSuitEffects": ["D"],
+  "unlockedBoosters": [],
+  "board": [
+    ["3C",  "3S",  ".",   ".",   "."],
+    [".",   ".",   ".",   ".",   "."],
+    [".",   "4D",  ".",   "4D",  "."],
+    [".",   ".",   ".",   ".",   "."],
+    [".",   ".",   ".",   "2H",  "2D"]
+  ],
+  "deck": {
+    "size": 18,
+    "script": [
+      { "card": "4D", "hint": [2, 2] }
+    ],
+    "random": { "rankRange": ["2", "4"], "rankWeights": null, "suitWeights": { "D": 0.5 }, "pairRatio": 0, "seed": 3001 }
+  },
+  "tutorial": [
+    { "turn": 1, "text": { "vi": "3 lá cùng chất Rô = x3 điểm", "en": "3 Diamond cards = x3 points" }, "handPointer": [2, 2] }
+  ],
+  "reward": { "coins": 20, "chest": false }
+}

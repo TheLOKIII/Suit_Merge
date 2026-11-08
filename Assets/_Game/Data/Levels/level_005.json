@@ -1,0 +1,24 @@
+{
+  "id": 5,
+  "phase": 1,
+  "type": "Buildup",
+  "difficulty": 2,
+  "goals": [
+    { "type": "SCORE", "score": 1800 }
+  ],
+  "enabledSuitEffects": ["D"],
+  "unlockedBoosters": ["UNDO"],
+  "board": [
+    [".",   ".",   ".",   ".",   "."],
+    [".",   "7S",  ".",   "6H",  "."],
+    [".",   ".",   "5C",  ".",   "."],
+    [".",   "6D",  ".",   "7C",  "."],
+    [".",   ".",   ".",   ".",   "."]
+  ],
+  "deck": {
+    "size": 22,
+    "random": { "rankRange": ["2", "5"], "rankWeights": null, "suitWeights": { "D": 0.35 }, "pairRatio": 0, "seed": 5001 }
+  },
+  "tutorial": [],
+  "reward": { "coins": 20, "chest": false }
+}

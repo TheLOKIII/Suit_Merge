@@ -1,0 +1,95 @@
+{
+  "id": 1,
+  "phase": 1,
+  "type": "Onboarding",
+  "difficulty": 1,
+  "goals": [
+    {
+      "type": "CREATE_RANK",
+      "rank": "4",
+      "count": 2
+    }
+  ],
+  "enabledSuitEffects": [],
+  "unlockedBoosters": [],
+  "board": [
+    [
+      "2H",
+      "2C",
+      ".",
+      "."
+    ],
+    [
+      ".",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      ".",
+      ".",
+      "3D",
+      "."
+    ],
+    [
+      ".",
+      ".",
+      ".",
+      "."
+    ]
+  ],
+  "deck": {
+    "size": 12,
+    "script": [
+      {
+        "card": "2S",
+        "hint": [
+          0,
+          2
+        ]
+      },
+      {
+        "card": "3H",
+        "hint": [
+          1,
+          2
+        ]
+      },
+      "2D",
+      "2C",
+      "3S",
+      "2H",
+      "3C",
+      "2D",
+      "3H",
+      "2S"
+    ],
+    "random": {
+      "rankRange": [
+        "2",
+        "3"
+      ],
+      "rankWeights": null,
+      "suitWeights": null,
+      "pairRatio": 0,
+      "seed": 1001
+    }
+  },
+  "tutorial": [
+    {
+      "turn": 1,
+      "text": {
+        "vi": "Ghép 3 lá giống nhau!",
+        "en": "Match 3 same cards!"
+      },
+      "handPointer": [
+        0,
+        2
+      ]
+    }
+  ],
+  "reward": {
+    "coins": 20,
+    "chest": false
+  }
+}

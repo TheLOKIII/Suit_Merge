@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5174a98fb5ec814fbf757584f4a706a, type: 3}
+  m_Name: SfxTheme
+  m_EditorClassIdentifier: SuitMerge.View::SuitMerge.View.Animation.SfxTheme
+  pick: {fileID: 8300000, guid: 6c2e1d6f51df47243a171e3c6ab22c0b, type: 3}
+  place: {fileID: 8300000, guid: 57bc8ff39d3e4004494cb02a153b449e, type: 3}
+  invalid: {fileID: 8300000, guid: 2dd406bd452342845b7f500564b02ceb, type: 3}
+  rotate: {fileID: 8300000, guid: 9385f6d28444a4f4bbdec4103bda8e09, type: 3}
+  button: {fileID: 8300000, guid: d2f5c46f5c55e604fa7700a013c268c9, type: 3}
+  merge: {fileID: 8300000, guid: d791a73239dc9f44ca0cf2849037fc10, type: 3}
+  create: {fileID: 8300000, guid: c9c89e095b69d8845acd2d269789871e, type: 3}
+  combo: {fileID: 8300000, guid: d0fb8252dddb45c44ad79bc504d62855, type: 3}
+  draw: {fileID: 8300000, guid: 40b9e326d1d6eff47ad260a0d62ae6b7, type: 3}
+  ace: {fileID: 8300000, guid: 5ff49b5dc23ef5d488ca26f9078197b0, type: 3}
+  goalStep: {fileID: 8300000, guid: e1699f92501bb434092385ab4828c8ee, type: 3}
+  goalDone: {fileID: 8300000, guid: dfafce0a6ee19b44c942301a45a4cb69, type: 3}
+  popupOpen: {fileID: 8300000, guid: d17f4e3740d49df4c863c70d1c55bae2, type: 3}
+  win: {fileID: 8300000, guid: c781e08a37bee8447b705d350e80eb83, type: 3}
+  lose: {fileID: 8300000, guid: f3541467a2ab04b41b76937cc6bf3247, type: 3}
+  unlock: {fileID: 8300000, guid: 65f78835a2654f04d9b4c6d477fe08ce, type: 3}
+  music: {fileID: 8300000, guid: c3fa146f4029b194482bd1d738b0b974, type: 3}
+  sfxVolume: 0.8
+  musicVolume: 0.35

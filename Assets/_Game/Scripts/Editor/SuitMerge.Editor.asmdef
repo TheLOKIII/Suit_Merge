@@ -1,0 +1,23 @@
+{
+    "name": "SuitMerge.Editor",
+    "rootNamespace": "SuitMerge.EditorTools",
+    "references": [
+        "SuitMerge.Core",
+        "SuitMerge.View",
+        "SuitMerge.App",
+        "UnityEngine.UI",
+        "Unity.TextMeshPro",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,39 @@
+# Mặc định: Git tự nhận file chữ, lưu xuống dòng kiểu LF trong kho
+* text=auto
+
+# Code / dữ liệu dạng chữ
+*.cs        text diff=csharp
+*.json      text
+*.md        text
+*.py        text
+*.txt       text
+*.shader    text
+*.hlsl      text
+*.inputactions text
+
+# File YAML của Unity (scene, prefab, asset, meta) — chữ, nhưng không gộp tự động khi xung đột
+*.unity       text merge=unityyamlmerge eol=lf
+*.prefab      text merge=unityyamlmerge eol=lf
+*.asset       text merge=unityyamlmerge eol=lf
+*.mat         text merge=unityyamlmerge eol=lf
+*.anim        text merge=unityyamlmerge eol=lf
+*.controller  text merge=unityyamlmerge eol=lf
+*.physicsMaterial2D text merge=unityyamlmerge eol=lf
+*.scenetemplate text eol=lf
+*.meta        text eol=lf
+
+# File nhị phân — không bao giờ so sánh / đổi xuống dòng
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.psd   binary
+*.wav   binary
+*.mp3   binary
+*.ogg   binary
+*.ttf   binary
+*.otf   binary
+*.dll   binary
+*.so    binary
+*.a     binary
+*.exe   binary
+*.zip   binary

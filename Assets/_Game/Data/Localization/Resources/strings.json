@@ -1,0 +1,76 @@
+{
+  "_ghiChu": "Bảng chữ 2 ngôn ngữ (bước 4.5). Sửa chữ ở đây, không cần sửa code. {0}, {1} = chỗ game điền số / tên. Trường bắt đầu bằng _ là ghi chú.",
+
+  "hud.menu":            { "vi": "MENU",                "en": "MENU" },
+  "hud.up_next":         { "vi": "UP NEXT",             "en": "UP NEXT" },
+  "hud.drag_hint":       { "vi": "Kéo thả vào ô trống", "en": "Drag onto an empty cell" },
+  "hud.pair_hint":       { "vi": "Chạm để xoay · Kéo để đặt", "en": "Tap to rotate · Drag to place" },
+  "hud.best":            { "vi": "KỶ LỤC {0}",          "en": "BEST {0}" },
+  "hud.level":           { "vi": "LEVEL {0}",           "en": "LEVEL {0}" },
+  "hud.goals":           { "vi": "MỤC TIÊU",            "en": "GOALS" },
+  "hud.deck":            { "vi": "BỘ BÀI",              "en": "DECK" },
+  "goal.score":          { "vi": "ĐIỂM",                "en": "SCORE" },
+  "goal.rank":           { "vi": "TẠO LÁ",              "en": "MAKE" },
+
+  "btn.resume":          { "vi": "TIẾP TỤC",            "en": "RESUME" },
+  "btn.restart":         { "vi": "CHƠI LẠI",            "en": "RESTART" },
+  "btn.settings":        { "vi": "CÀI ĐẶT",             "en": "SETTINGS" },
+  "btn.home":            { "vi": "VỀ MÀN CHÍNH",        "en": "MAIN MENU" },
+  "btn.play_again":      { "vi": "CHƠI LẠI",            "en": "PLAY AGAIN" },
+  "btn.continue":        { "vi": "TIẾP TỤC",            "en": "CONTINUE" },
+  "btn.give_up":         { "vi": "BỎ CUỘC",             "en": "GIVE UP" },
+  "btn.got_it":          { "vi": "ĐÃ HIỂU!",            "en": "GOT IT!" },
+  "btn.endless":         { "vi": "ENDLESS",             "en": "ENDLESS" },
+
+  "pause.title":         { "vi": "TẠM DỪNG",            "en": "PAUSED" },
+
+  "gameover.title":      { "vi": "HẾT CHỖ!",            "en": "NO MORE SPACE!" },
+  "label.score":         { "vi": "ĐIỂM",                "en": "SCORE" },
+  "label.best":          { "vi": "KỶ LỤC",              "en": "BEST" },
+  "label.new_best":      { "vi": "Kỷ lục mới!",         "en": "New best!" },
+
+  "complete.title":      { "vi": "LEVEL {0}",           "en": "LEVEL {0}" },
+  "complete.done":       { "vi": "HOÀN THÀNH!",         "en": "COMPLETE!" },
+  "complete.reward":     { "vi": "+{0}",                "en": "+{0}" },
+
+  "fail.out_of_cards":   { "vi": "HẾT LÁ!",             "en": "OUT OF CARDS!" },
+  "fail.board_full":     { "vi": "BÀN ĐẦY!",            "en": "BOARD FULL!" },
+  "fail.subtitle":       { "vi": "Còn thiếu một chút!", "en": "So close!" },
+  "fail.no_space_pair":  { "vi": "HẾT CHỖ!",            "en": "NO MORE SPACE!" },
+
+  "pair.title":          { "vi": "HẾT CHỖ!",            "en": "NO MORE SPACE!" },
+  "pair.no_space":       { "vi": "Không còn 2 ô trống kề nhau\ncho khối đôi này.", "en": "No 2 adjacent empty cells\nleft for this pair." },
+  "btn.swap_next":       { "vi": "SWAP – ĐỔI LÁ NEXT",  "en": "SWAP WITH NEXT" },
+  "btn.hammer_one":      { "vi": "HAMMER – PHÁ 1 Ô",    "en": "HAMMER – BREAK 1" },
+
+  "unlock.title":        { "vi": "MỞ KHÓA!",            "en": "UNLOCKED!" },
+  "unlock.D.name":       { "vi": "Hiệu ứng Rô",         "en": "Diamond effect" },
+  "unlock.D.desc":       { "vi": "Ghép 3 lá CÙNG CHẤT RÔ\n→ điểm merge ×3", "en": "Merge 3 DIAMOND cards\n→ merge points ×3" },
+  "unlock.C.name":       { "vi": "Hiệu ứng Chuồn",      "en": "Club effect" },
+  "unlock.C.desc":       { "vi": "Ghép 3 lá CÙNG CHẤT CHUỒN\n→ sinh thêm 1 lá cùng rank", "en": "Merge 3 CLUB cards\n→ spawn 1 extra card of the same rank" },
+  "unlock.S.name":       { "vi": "Hiệu ứng Bích",       "en": "Spade effect" },
+  "unlock.S.desc":       { "vi": "Ghép 3 lá CÙNG CHẤT BÍCH\n→ dọn sạch vùng 3×3", "en": "Merge 3 SPADE cards\n→ clear the 3×3 area" },
+  "unlock.H.name":       { "vi": "Hiệu ứng Cơ",         "en": "Heart effect" },
+  "unlock.H.desc":       { "vi": "Ghép N lá CÙNG CHẤT CƠ\n→ nhảy lên N rank", "en": "Merge N HEART cards\n→ jump up N ranks" },
+
+  "select.title":        { "vi": "CHỌN LEVEL",          "en": "SELECT LEVEL" },
+
+  "settings.title":      { "vi": "CÀI ĐẶT",             "en": "SETTINGS" },
+  "settings.language":   { "vi": "Ngôn ngữ",            "en": "Language" },
+  "lang.vi":             { "vi": "Tiếng Việt",          "en": "Tiếng Việt" },
+  "lang.en":             { "vi": "English",             "en": "English" },
+  "settings.effects":    { "vi": "Hiệu ứng",            "en": "Effects" },
+  "btn.fx_full":         { "vi": "ĐẦY ĐỦ",              "en": "FULL" },
+  "btn.fx_reduced":      { "vi": "GIẢM BỚT",            "en": "REDUCED" },
+  "settings.sound":      { "vi": "Âm thanh",            "en": "Sound" },
+  "settings.music":      { "vi": "Nhạc",                "en": "Music" },
+  "btn.on":              { "vi": "BẬT",                 "en": "ON" },
+  "btn.off":             { "vi": "TẮT",                 "en": "OFF" },
+
+  "fx.diamond":          { "vi": "×{0}",                "en": "×{0}" },
+  "fx.heart":            { "vi": "+{0} RANK",           "en": "+{0} RANK" },
+  "fx.club":             { "vi": "+1 LÁ",               "en": "+1 CARD" },
+  "fx.spade":            { "vi": "DỌN 3×3",             "en": "CLEAR 3×3" },
+  "fx.combo":            { "vi": "COMBO ×{0}!",         "en": "COMBO ×{0}!" },
+  "fx.ace":              { "vi": "ACE!",                "en": "ACE!" }
+}
