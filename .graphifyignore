@@ -1,0 +1,43 @@
+# Graphify: những file KHÔNG đưa vào đồ thị tri thức
+# (graphify đã tự bỏ qua mọi thứ trong .gitignore: Library/, Temp/, Docs/...)
+
+# File metadata của Unity: chỉ chứa GUID, không có nội dung
+*.meta
+
+# Package bên thứ ba, không phải code của dự án
+Assets/TextMesh Pro/
+
+# Dữ liệu Unity dạng YAML/nhị phân: nhiều, nhiễu, không mang logic
+*.unity
+*.prefab
+*.asset
+*.mat
+*.anim
+*.controller
+*.scenetemplate
+*.shadergraph
+*.inputactions
+
+# Âm thanh, font, file thiết kế gốc
+*.wav
+*.ttf
+*.TTF
+*.psd
+
+# Ảnh: sprite không thêm thông tin cho đồ thị (mỗi ảnh tốn 1 lượt AI)
+*.png
+*.jpg
+*.jpeg
+
+# File cấu hình/giấy phép không liên quan logic game
+.vscode/
+ProjectSettings/
+Packages/
+Assets/_Game/Fonts/
+
+# Kết quả của chính graphify
+graphify-out/
+
+# ĐƯA LẠI Docs vào đồ thị (dù .gitignore chặn để không push lên GitHub).
+# graphify-out/ chỉ nằm trên máy nên báo cáo vẫn không bị đưa lên mạng.
+!/Assets/_Game/Docs/

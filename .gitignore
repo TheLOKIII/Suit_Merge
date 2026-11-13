@@ -54,6 +54,9 @@ Desktop.ini
 # Cài đặt riêng của máy (Claude Code)
 /.claude/settings.local.json
 
+# Đồ thị tri thức Graphify: chứa nội dung Docs nên CHỈ lưu trên máy
+/graphify-out/
+
 # Python cache của Tools/
 __pycache__/
 *.pyc
